@@ -3,15 +3,15 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import vuetify from "./plugins/vuetify";
-import "./plugins";
-import bridge from "./plugins/birdge.plug.js";
-import emitterApi from "./api/emitter/emitter.api";
-import commonApi from "./api/common/common.api";
+import vuetify from "./plugins/vutify";
+// import "./plugins";
+// import bridge from "./plugins/birdge.plug.js";
+// import emitterApi from "./api/emitter/emitter.api";
+// import commonApi from "./api/common/common.api";
 
 Vue.config.productionTip = false;
 
-Vue.use(bridge);
+// Vue.use(bridge);
 Vue.use(socketPlugin);
 Vue.prototype.$emitterApi = emitterApi;
 Vue.prototype.$commonApi = commonApi;

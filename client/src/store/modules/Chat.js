@@ -1,7 +1,7 @@
 import cloneDeep from "lodash/cloneDeep";
-import { axiosCommonWithAuth } from "@/api/Index.js";
+// import { axiosCommonWithAuth } from "@/api/Index.js";
 import axios from "axios";
-import { data, timers } from "jquery";
+// import { data, timers } from "jquery";
 
 const INITIAL_STATE = {
     chatRooms: [],
