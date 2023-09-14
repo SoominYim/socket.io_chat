@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
@@ -12,9 +13,9 @@ import vuetify from "./plugins/vutify";
 Vue.config.productionTip = false;
 
 // Vue.use(bridge);
-Vue.use(socketPlugin);
-Vue.prototype.$emitterApi = emitterApi;
-Vue.prototype.$commonApi = commonApi;
+// Vue.use(socketPlugin);
+// Vue.prototype.$emitterApi = emitterApi;
+// Vue.prototype.$commonApi = commonApi;
 
 var vm = new Vue({
     router,

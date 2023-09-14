@@ -389,3 +389,6 @@ function mInterFaceOsType() {
     }
     return osInfo;
 }
+
+
+// puls calculator
